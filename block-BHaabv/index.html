@@ -1,0 +1,258 @@
+<!--Create a layout according to the design shown below.
+
+![Backgrounds and gradients level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/background-and-gradients/ex-2.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail.
+-->
+
+
+<!DOCTYPE  html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Background and Gradients | Assignment2</title>
+        <link rel="stylesheet" href ="assets/stylesheet/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/471db95236.js" crossorigin="anonymous"></script>
+    </head>
+    <header class="header">
+     <div class="container flex">
+        <div class="heading">
+            <h1>Social Media Dashboard</h1>
+            <h3>Total Followers: 23,004</h3>
+        </div>
+        <div class="button flex">
+            <span>Dark Mode</span>
+            <div class="btn flex">
+                <div class="dot"></div>
+            </div>
+        </div>
+     </div>
+    </header>
+    <body>
+        <main>
+          <div class="big-container">  
+            <section class="boxes">
+                <div class="container flex">
+                    <!--Box1-->
+                    <div class="box-row1">
+                        <div class="border"></div>
+                        <header class="box-top flex  flex-center">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <h4>@nathanf</h4>
+                        </header>
+                        <div class="box-middle">
+                            <h2>1987</h2>
+                            <span>Followers</span>
+                        </div>
+                        <footer class="box-bottom flex flex-center">
+                            <div class="arrow"><i class="fas fa-caret-up"></i></div>
+                            <span>12 Today</span>
+                        </footer>
+                        
+
+                    </div>
+                    <!--Box2-->
+                    <div class="box-row1">
+                        <div class="border2"></div>
+                        <header class="box-top flex  flex-center">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <h4>@nathanf</h4>
+                        </header>
+                        <div class="box-middle">
+                            <h2>1044</h2>
+                            <span>Followers</span>
+                        </div>
+                        <footer class="box-bottom flex flex-center">
+                            <div class="arrow"><i class="fas fa-caret-up"></i></div>
+                            <span>99 Today</span>
+                        </footer>
+                        
+
+                    </div>
+                    <!--Box3-->
+                    <div class="box-row1">
+                        <div class="border border3"></div>
+                        <header class="box-top flex  flex-center">
+                            <a href="#" class="insta-color"><i class="fab fa-instagram"></i></a>
+                            <h4>@realnathanf</h4>
+                        </header>
+                        <div class="box-middle">
+                            <h2>11K</h2>
+                            <span>Followers</span>
+                        </div>
+                        <footer class="box-bottom flex flex-center">
+                            <div class="arrow"><i class="fas fa-caret-up"></i></div>
+                            <span>99 Today</span>
+                        </footer>
+                        
+
+                    </div>
+                    <!--Box4-->
+                    <div class="box-row1">
+                        <div class="border border4"></div>
+                        <header class="box-top flex  flex-center">
+                            <a href="#" class="utube-color"><i class="fab fa-youtube"></i></a>
+                            <h4>Nathan F.</h4>
+                        </header>
+                        <div class="box-middle">
+                            <h2>8239</h2>
+                            <span>Subscribers</span>
+                        </div>
+                        <footer class="box-bottom flex flex-center">
+                            <div class="arrow-down"><i class="fas fa-sort-down"></i></div>
+                            <span class="color-red">144 Today</span>
+                        </footer>
+
+                    </div>
+                </div>
+
+            </section>
+            <section class="row2">
+                <div class="container">
+                    <header class="heading2">
+                        <h3>Overview-Today</h2>
+                    </header>
+                </div>    
+                    <div class="container flex flex-wrap ">
+                        <!--Box1 Row2-->
+                        <div class="box-row2">
+                            <div class="box-r1 flex ">
+                                <span>Page views</span>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                
+                            </div>
+                            <div class="box-r2 flex">
+                                <h4>87</h4>
+                                <div class="margin box-bottom flex">
+                                  <div class="arrow"><i class="fas fa-caret-up"></i></div>
+                                 <span>3%</span>
+                                </div> 
+                            </div>
+
+                        </div>
+                        <!--Box2 row2-->
+                        
+                        <div class="box-row2">
+                                <div class="box-r1 flex ">
+                                    <span>Likes</span>
+                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                    
+                                </div>
+                                <div class="box-r2 flex">
+                                    <h4>52</h4>
+                                    <div class="margin box-bottom flex">
+                                        <div class="arrow-down"><i class="fas fa-sort-down"></i></div>
+                                     <span class="color-red">2%</span>
+                                    </div> 
+                                </div>
+    
+                        </div>
+
+                        <!--Box3 row2-->
+                        <div class="box-row2">
+                            <div class="box-r1 flex ">
+                                <span>Likes</span>
+                                <a href="#" class="insta-color"><i class="fab fa-instagram"></i></a>
+                                
+                            </div>
+                            <div class="box-r2 flex">
+                                <h4>5462</h4>
+                                <div class="margin box-bottom flex">
+                                    <div class="arrow"><i class="fas fa-caret-up"></i></div>
+                                 <span>2257%</span>
+                                </div> 
+                            </div>
+
+                        </div>
+                        <!--Box4 row2-->
+                        <div class="box-row2">
+                            <div class="box-r1 flex ">
+                                <span>Profile Views</span>
+                                <a href="#" class="insta-color"><i class="fab fa-instagram"></i></a>
+                                
+                            </div>
+                            <div class="box-r2 flex">
+                                <h4>52K</h4>
+                                <div class="margin box-bottom flex">
+                                    <div class="arrow"><i class="fas fa-caret-up"></i></div>
+                                 <span>1375%</span>
+                                </div> 
+                            </div>
+
+                        </div>
+                        <!--Box5 row2-->
+                        <div class="box-row2">
+                            <div class="box-r1 flex ">
+                                <span>Retweets</span>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                
+                            </div>
+                            <div class="box-r2 flex">
+                                <h4>117</h4>
+                                <div class="margin box-bottom flex">
+                                    <div class="arrow"><i class="fas fa-caret-up"></i></div>
+                                 <span>303%</span>
+                                </div> 
+                            </div>
+                        </div>
+                        <!--Box6 row2-->
+                        <div class="box-row2">
+                            <div class="box-r1 flex ">
+                                <span>Likes</span>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                
+                            </div>
+                            <div class="box-r2 flex">
+                                <h4>507</h4>
+                                <div class="margin box-bottom flex">
+                                    <div class="arrow"><i class="fas fa-caret-up"></i></div>
+                                 <span>553%</span>
+                                </div> 
+                            </div>
+
+                        </div>
+                        <!--Box7 row2-->
+                        <div class="box-row2">
+                            <div class="box-r1 flex ">
+                                <span>Likes</span>
+                                <a href="#" class="utube-color"><i class="fab fa-youtube"></i></a>
+                                
+                            </div>
+                            <div class="box-r2 flex">
+                                <h4>107</h4>
+                                <div class="margin box-bottom flex">
+                                    <div class="arrow-down"><i class="fas fa-sort-down"></i></div>
+                                 <span class="color-red">19%</span>
+                                </div> 
+                            </div>
+                        </div>
+                        <!--Box8 row2-->
+                        <div class="box-row2">
+                            <div class="box-r1 flex ">
+                                <span>Total Views</span>
+                                <a href="#" class="utube-color"><i class="fab fa-youtube"></i></a>
+                                
+                            </div>
+                            <div class="box-r2 flex">
+                                <h4>1407</h4>
+                                <div class="margin box-bottom flex">
+                                    <div class="arrow-down"><i class="fas fa-sort-down"></i></div>
+                                 <span class="color-red">12%</span>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+            
+            </section>
+        </div>  
+        </main>
+    </body>
+
+</html>
